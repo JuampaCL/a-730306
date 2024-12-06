@@ -29,16 +29,16 @@
 
 @layer base {
   body {
-    @apply bg-dashboard-dark text-dashboard-text;
+    @apply bg-dashboard-light text-dashboard-dark;
   }
 }
 
 .glass-card {
-  @apply bg-dashboard-card bg-opacity-50 backdrop-blur-lg border border-white/10 rounded-xl;
+  @apply bg-white bg-opacity-50 backdrop-blur-lg border border-gray-200 rounded-xl shadow-sm;
 }
 
 .dashboard-card {
-  @apply p-6 glass-card transition-all duration-300 hover:border-white/20;
+  @apply p-6 glass-card transition-all duration-300 hover:border-gray-300;
 }
 
 .metric-card {

@@ -26,13 +26,13 @@ export default {
         foreground: "hsl(var(--foreground))",
         dashboard: {
           dark: "#141413",
-          light: "#FAFAF8",
+          light: "#F5F7FA",
           accent1: "#8989DE",
           accent2: "#61AAF2",
           accent3: "#7EBF8E",
-          text: "#C4C3BB",
-          muted: "#828179",
-          card: "#1A1A19",
+          text: "#4A5568",
+          muted: "#718096",
+          card: "#FFFFFF",
         },
         primary: {
           DEFAULT: "hsl(var(--primary))",
